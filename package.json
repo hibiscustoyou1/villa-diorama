@@ -1,0 +1,15 @@
+{
+  "name": "forbidden-city-snow-globe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "北京故宫雪景水晶球 — 单文件 Three.js 可交互 3D 微缩场景（交付物为 index.html，运行时零依赖）",
+  "scripts": {
+    "build": "node tools/assemble.mjs",
+    "verify": "node verify/verify.mjs",
+    "watch": "node tools/assemble.mjs --watch"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}

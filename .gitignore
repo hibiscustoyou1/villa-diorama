@@ -1,0 +1,7 @@
+node_modules/
+verify/out/
+out/
+.pw-browsers/
+.pw-libs/
+*.log
+.DS_Store
